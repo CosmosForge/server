@@ -1,9 +1,14 @@
 # compiled output
 /dist
 /node_modules
-/public/imgs
-/public/videos
-
+/public/imgs/uploads/*
+/public/imgs/swipers/*
+/public/videos/*
+/public/css/*
+/public/js/*
+/dynamicDb/*
+/public/pages/*
+/.env
 # Logs
 logs
 *.log

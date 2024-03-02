@@ -1,0 +1,39 @@
+{
+    "footer":{
+        "update":true,
+        "elements":[
+            {
+                "type":"title",
+                "text":"Hellow world",
+                "properties":{
+                    "id":"footerTopic1",
+                    "className":"title"
+                }
+            },
+            {
+                "type":"list",
+                "elements":[
+                    {
+                        "type":"btn",
+                        "text":"Home",
+                        "src":"/home",
+                        "properties":{
+                            "id":"footerSmallBtn1",
+                            "className":"btn smallBtn"
+                        }
+                    },
+                    {
+                        "type":"btn",
+                        "text":"About",
+                        "src":"/about",
+                        "properties":{
+                            "id":"footerSmallBtn1",
+                            "className":"btn smallBtn"
+                        }
+                    }
+                ]
+            }
+        ],
+        "localCSS":"css/partsStyle/footer.css"
+    }
+}
