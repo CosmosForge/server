@@ -1,0 +1,26 @@
+{
+    "header":{
+        "update":true,
+        "elements":[
+            {
+                "type":"button",
+                "text":"Home",
+                "src":"/home",
+                "properties":{
+                    "id":"",
+                    "className":"button"
+                }
+            },
+            {
+                "type":"button",
+                "text":"About",
+                "src":"/about",
+                "properties":{
+                    "id":"about",
+                    "className":"button about"
+                }
+            }
+        ],
+        "localCSS":"css/partsStyle/header.css"
+    }
+}
