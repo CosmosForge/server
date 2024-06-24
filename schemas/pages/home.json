@@ -1,0 +1,97 @@
+{
+  "head": {
+    "js": [],
+    "css": [],
+    "title": "",
+    "description": "",
+    "tags": []
+  },
+  "body": {
+    "main": {
+      "update": false,
+      "children": [
+        {
+          "type": "section",
+          "properties": {
+            "class": " section"
+          },
+          "styles": "align-items: center;",
+          "children": [
+            {
+              "type": "area",
+              "properties": {
+                "class": " area "
+              },
+              "styles": "width: 60%;",
+              "children": [
+                {
+                  "type": "title",
+                  "properties": {
+                    "text": "Welcome to the home page",
+                    "class": " title",
+                    "titleType": "h1"
+                  },
+                  "styles": "",
+                  "children": []
+                },
+                {
+                  "type": "paragraph",
+                  "properties": {
+                    "text": "Someone's history will be made here. Enjoy watching",
+                    "class": " paragraph"
+                  },
+                  "styles": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "area",
+              "properties": {
+                "class": " area"
+              },
+              "styles": "width: 35%;",
+              "children": [
+                {
+                  "type": "list",
+                  "properties": {
+                    "class": " list"
+                  },
+                  "styles": "flex-direction: column;",
+                  "children": [
+                    [
+                      {
+                        "type": "img",
+                        "properties": {
+                          "text": "",
+                          "class": " img",
+                          "src": "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+                        },
+                        "styles": "",
+                        "children": []
+                      }
+                    ],
+                    [
+                      {
+                        "type": "img",
+                        "properties": {
+                          "text": "",
+                          "class": " img",
+                          "src": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+                        },
+                        "styles": "",
+                        "children": []
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "html": "<section placeholder=\"\" class=\"element section\" style=\"align-items: center;\" dropzone=\"true\"><div class=\"borders\"><div class=\"border border1 active\"></div><div class=\"border border2 active\"></div><div class=\"border border3 active\"></div><div class=\"border border4 active\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><div placeholder=\"\" class=\"element area active\" style=\"width: 60%;\" dropzone=\"true\"><div class=\"borders\"><div class=\"border border1 active\"></div><div class=\"border border2 active\"></div><div class=\"border border3 active\"></div><div class=\"border border4\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><div placeholder=\"title\" class=\"element title\" style=\"\"><div class=\"borders\"><div class=\"border border1\"></div><div class=\"border border2\"></div><div class=\"border border3\"></div><div class=\"border border4\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><h1 contenteditable=\"true\" class=\"active\">Welcome to the home page</h1></div><div placeholder=\"paragraph\" class=\"element paragraph\" style=\"\"><div class=\"borders\"><div class=\"border border1 active\"></div><div class=\"border border2\"></div><div class=\"border border3\"></div><div class=\"border border4 active\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><p contenteditable=\"true\">Someone's history will be made here. Enjoy watching</p></div></div><div placeholder=\"\" class=\"element area\" style=\"width: 35%;\" dropzone=\"true\"><div class=\"borders\"><div class=\"border border1 active\"></div><div class=\"border border2 active\"></div><div class=\"border border3 active\"></div><div class=\"border border4 active\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><div class=\"element list\" style=\"flex-direction: column;\"><div class=\"borders\"><div class=\"border border1\"></div><div class=\"border border2\"></div><div class=\"border border3 active\"></div><div class=\"border border4\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><ul style=\"flex-direction: column;\"><li class=\"element\" dropzone=\"true\" placeholder=\"\"><div placeholder=\"img\" class=\"element img\" style=\"\"><div class=\"borders\"><div class=\"border border1\"></div><div class=\"border border2\"></div><div class=\"border border3\"></div><div class=\"border border4\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><img src=\"https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg\"></div></li><li class=\"element\" dropzone=\"true\" placeholder=\"\"><div placeholder=\"img\" class=\"element img\" style=\"\"><div class=\"borders\"><div class=\"border border1\"></div><div class=\"border border2\"></div><div class=\"border border3\"></div><div class=\"border border4\"></div></div><div class=\"funcBtns\"><img src=\"assets/imgs/constructor/move.png\" alt=\"\" class=\"move\"><img src=\"assets/imgs/constructor/configuration.png\" alt=\"\" class=\"configurator\"><img src=\"assets/imgs/constructor/delete.png\" alt=\"\" class=\"delete\"></div><img src=\"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg\"></div></li></ul></div></div></section>"
+    }
+  }
+  
+}
