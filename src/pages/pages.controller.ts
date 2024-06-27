@@ -74,12 +74,12 @@ export class PagesController {
     return pageSchema
   }
   @Patch("schema/:id")
-  async updatePagesschema(@Param("id") id:number, @Body() schema:any){
+  async updatePagesSchema(@Param("id") id:number, @Body() schema:any){
     const pageSchema = await this.pagesService.updatePageSchema(id, schema)
     return pageSchema
   }
   @Patch("/snapshot/:id")
-  async createShapshot(@Body() body:any, @Param("id") id:string, @Req() request: Request){
+  async createSnapshot(@Body() body:any, @Param("id") id:string, @Req() request: Request){
     return await this.pagesService.createPageSnapshot(body.url, parseInt(id), request.protocol+"://"+request.get('Host'))
   }
   @Patch()
