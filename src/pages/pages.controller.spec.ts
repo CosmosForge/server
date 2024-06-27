@@ -211,7 +211,7 @@ describe('PagesController', () => {
             get: jest.fn().mockReturnValue('localhost'),
         } as Partial<Request> as Request;
 
-        const result = await controller.createShapshot(body, id, request);
+        const result = await controller.createSnapshot(body, id, request);
 
         expect(result).toEqual(mockResponse);
         expect(service.createPageSnapshot).toHaveBeenCalledWith(body.url, parseInt(id), 'http://localhost');
